@@ -10,6 +10,17 @@
       "numero": "25",
       "estado": "MG",
       "cidade": "Uberlândia"
+    },
+    {
+      "id": "joao@email.com",
+      "email": "joao@email.com",
+      "nome": "Joao Sousa",
+      "senha": "123",
+      "rua": "Alfredo Julio",
+      "cep": "38402048",
+      "numero": "25",
+      "estado": "MG",
+      "cidade": "Uberlândia"
     }
   ],
   "produto": [
