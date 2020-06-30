@@ -28,16 +28,33 @@
     <input type="text" name="estado" id="estado" v-model="estado" />
 
     <div class="button">
-      <slot>
-
-      </slot>
+      <slot> </slot>
     </div>
   </form>
 </template>
 
 <script>
+import { mapFields } from "@/helpers.js";
+
 export default {
   name: "UsuarioForm",
+  computed: {
+    ...mapFields({
+      fields: [
+        "nome",
+        "email",
+        "senha",
+        "rua",
+        "cep",
+        "numero",
+        "bairro",
+        "cidade",
+        "estado",
+      ],
+      base: "usuario",
+      mutation: "UPDATE_USUARIO",
+    }),
+  },
 };
 </script>
 
