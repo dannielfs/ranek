@@ -2,14 +2,15 @@
   "usuario": [
     {
       "id": "danniel@email.com",
-      "email": "danniel@email.com",
       "nome": "Danniel Sousa",
+      "email": "danniel@email.com",
       "senha": "123",
-      "rua": "Alfredo Julio",
       "cep": "38402048",
-      "numero": "25",
-      "estado": "MG",
-      "cidade": "Uberlândia"
+      "rua": "Alfredo Julio",
+      "numero": "44",
+      "bairro": "Ali",
+      "cidade": "Uberlândia",
+      "estado": "MG"
     },
     {
       "id": "joao@email.com",
