@@ -23,8 +23,8 @@ export default {
 
   data: () => ({
     login: {
-      email: "",
-      senha: "",
+      email: "danniel@email.com",
+      senha: "123",
     },
   }),
 

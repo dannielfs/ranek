@@ -76,7 +76,7 @@ export default {
   width: 100%;
   font-size: 1rem;
   text-align: left;
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   cursor: pointer;
   color: #345;
 }
