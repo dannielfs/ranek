@@ -17,7 +17,7 @@ export default {
     atualizarUsuario() {
       api.put(`/usuario/${this.$store.state.usuario.id}`, this.$store.state.usuario).then(
         (response) => {
-          this.$store.dispatch('getUsuario');
+          this.$store.dispatch('getUsuario', this.$store.state.usuario.email);
           this.$router.push({ name: 'usuario'})
         }
       ).catch((error) => console.log(error.response))

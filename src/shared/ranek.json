@@ -1,4 +1,27 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "danniel@email.com",
+      "produto": {
+        "nome": "Novo PC",
+        "preco": "12345",
+        "descricao": "Teste descrição",
+        "fotos": null,
+        "usuario_id": "danniel@email.com",
+        "id": "oC95dE1",
+        "vendido": "false"
+      },
+      "endereco": {
+        "cep": "38402048",
+        "rua": "Alfredo Julio 2",
+        "numero": "11",
+        "bairro": "Ali",
+        "cidade": "Uberlândia",
+        "estado": "MG"
+      },
+      "id": 1
+    }
+  ],
   "usuario": [
     {
       "id": "danniel@email.com",
@@ -6,8 +29,8 @@
       "email": "danniel@email.com",
       "senha": "123",
       "cep": "38402048",
-      "rua": "Alfredo Julio",
-      "numero": "44",
+      "rua": "Alfredo Julio 2",
+      "numero": "11",
       "bairro": "Ali",
       "cidade": "Uberlândia",
       "estado": "MG"
@@ -31,7 +54,8 @@
       "descricao": "Teste descrição",
       "fotos": null,
       "usuario_id": "danniel@email.com",
-      "id": "oC95dE1"
+      "id": "oC95dE1",
+      "vendido": "false"
     },
     {
       "nome": "Novo PC",
@@ -39,7 +63,8 @@
       "descricao": "Teste descrição",
       "fotos": null,
       "usuario_id": "danniel@email.com",
-      "id": "xVLDwP6"
+      "id": "xVLDwP6",
+      "vendido": "false"
     }
   ]
 }
