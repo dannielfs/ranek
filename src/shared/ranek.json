@@ -2,6 +2,7 @@
   "transacao": [
     {
       "comprador_id": "danniel@email.com",
+      "vendedor_id": "danniel@email.com",
       "produto": {
         "nome": "Novo PC",
         "preco": "12345",
