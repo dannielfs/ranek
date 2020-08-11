@@ -69,6 +69,7 @@ img {
 .btn:hover {
   background: #65d;
   transform: scale(1.1);
+  
 }
 
 #app {
